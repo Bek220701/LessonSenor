@@ -40,8 +40,10 @@ useEffect(()=>{
 },[])
   return <div className="container">
     <div className="lesson" >
-      <input className="inp" type="text" value={value} onChange={(e)=>setValue(e.target.value)} />
+      <div className="lesson-center">
+      <input className="inp" type="text" placeholder="search..." value={value} onChange={(e)=>setValue(e.target.value)} />
       <button className="btn" onClick={()=>postData()}>Data</button>
+      </div>
     {
       loading ? <h1>loading</h1> : <div>
         {

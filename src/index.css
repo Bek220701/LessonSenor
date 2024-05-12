@@ -1,27 +1,48 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   color-scheme: dark;
 }
-.container{
+.container {
   width: 90%;
   margin: 0 auto;
 }
-.lesson{
+.lesson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 30px;
 }
-.inp{
+.inp {
+  font-size: 18px;
+
   width: 500px;
   height: 40px;
-background: none;
-padding: 10px;
-border: 2px solid white ;
+  background: none;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
 }
-.btn{
-  width: 50px;
+.btn {
+  width: 70px;
   height: 40px;
+  font-size: 18px;
+  background: white;
+  color: black;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.lesson h1{
+.lesson h1 {
   color: white;
   margin: 10px;
+  text-decoration: none;
+  width: 500px;
+  height: 40px;
+  background: #c4acac31;
+  margin-right: 90px;
+  border-radius: 10px;
+  text-align: center;
 }
